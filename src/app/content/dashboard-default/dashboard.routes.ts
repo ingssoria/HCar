@@ -1,16 +1,13 @@
 
 import {RouterModule, Routes} from "@angular/router";
-import {ContentComponent} from "./content/content.component";
+import { AboutusComponent } from "../aboutus/aboutus.component";
+import { FaqComponent } from "../faq/faq.component";
 import {ModuleWithProviders} from "@angular/core";
-import {AboutusComponent} from "./content/aboutus/aboutus.component";
-import {FaqComponent} from "./content/faq/faq.component";
-import {DashboardDefaultComponent} from "./content/dashboard-default/dashboard-default.component";
 
-const  appRoutes: Routes = [
-    { path: '', component: ContentComponent },
-    { path: 'tours', component: DashboardDefaultComponent },
+
+const  dashboardRoutes: Routes = [
     { path: 'aboutus', component: AboutusComponent },
     { path: 'faq', component: FaqComponent }
 ];
 
-export const routes: ModuleWithProviders = RouterModule.forRoot(appRoutes);
+export const dashboardroutes: ModuleWithProviders = RouterModule.forRoot(dashboardRoutes);

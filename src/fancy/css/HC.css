@@ -1,13 +1,103 @@
 /**Fondos**/
 body{
-    background-color: #8c8c8c;
+    /*background-color: #8c8c8c;*/
+}
+.sliderhc, .bannerhc{
+    background: url('../img/mojito-playa.jpg');
+    height: 80vh;
+    background-position: bottom;
+    background-size: cover;
 }
 
-.navbarB{
-    background-color: #a8d8ee;
+.img_latest_news_areahc{
+    width: 100vh;
+    height: 25vh;
+    border-radius: 6px;
+}
+.slidercapahc, .bannercapahc{
+    background-color: rgba(0,0,0,.5);
+    height: 80vh;
+}
+.bannerhc, .bannercapahc{
+    height: 30vh;
+}
+.slidercapahc h1, .bannercapahc h1{
+    font-size: 5rem;
+}
+.slidercapahc p{
+    font-size: 3rem;
+}
+.creativeahc {
+    background-color: #f7f7f7;
+    box-sizing: border-box;
+}
+.creativebhc{
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+    margin-top: -70px !important;
+    z-index: 22;
+    position: relative;
+}
+.latest_news_areahc{
+    border: 1px solid #ebebeb;
+    background-color: white;
+}
+.foothc{
+    /*background-color: rgba(19,22,39,.5);*/
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    background: white;
+}
+.foothc ul {
+    padding: 0;
+}
+.foothc img{
+    background-position: center;
 }
 
-/*Vinculos*/
-a:hover {
-    color: #2bc0a4;
+/**Fondos**/
+
+.navbarhc{
+    border-bottom: 1px solid #626571;
+    background: rgba(0,0,0,.20);
+}
+.navbarhc.navbar{
+    text-align: right;
+}
+
+/**Vinculos**/
+li.nav-item a:hover, a:hover{
+    color: #2bc0a4 !important;
+    text-decoration: none;
+}
+li.nav-item a, .foothc .socialiconhc a{
+    font-weight: bolder;
+    font-size: 1.4rem;
+    color: white!important;
+}
+.icon_search, .foothc{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+.foothc a{
+    color: #343a40;
+}
+.foothc .socialiconhc a{
+    display: block;
+    background-color: #bbbbbb;
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+.foothc .socialiconhc a:hover{
+    background-color: #2bc0a4;
+}
+#prueba{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
 }

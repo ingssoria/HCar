@@ -11,9 +11,7 @@
         "assets",
         "favicon.ico",
         "images",
-        "js",
-        "css",
-        "fonts"
+        "fancy"
       ],
       "index": "index.html",
       "main": "main.ts",
@@ -23,7 +21,6 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",
