@@ -1,0 +1,13 @@
+/**Fondos**/
+body{
+    background-color: #8c8c8c;
+}
+
+.navbarB{
+    background-color: #a8d8ee;
+}
+
+/*Vinculos*/
+a:hover {
+    color: #2bc0a4;
+}
