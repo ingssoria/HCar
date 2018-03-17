@@ -3,9 +3,15 @@ body{
     /*background-color: #8c8c8c;*/
 }
 .sliderhc, .bannerhc{
-    background: url('../img/mojito-playa.jpg');
+    background: url('../img/banner.jpg');
     height: 80vh;
-    background-position: bottom;
+    background-position: center;
+    background-size: cover;
+}
+
+.bannerlistahc{
+    background: url('../img/bannera.jpg');
+    background-position: top;
     background-size: cover;
 }
 
@@ -24,10 +30,10 @@ body{
 .slidercapahc h1, .bannercapahc h1{
     font-size: 5rem;
 }
-.slidercapahc p{
+.slidercapahc p, h1.encabezadossechc p, h1.encabezadossechc{
     font-size: 3rem;
 }
-.creativeahc {
+.creativeahc, .capacasa{
     background-color: #f7f7f7;
     box-sizing: border-box;
 }
@@ -35,7 +41,8 @@ body{
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
-    margin-top: -70px !important;
+    margin-top: -100px !important;
+    /*margin-top: -70px !important;*/
     z-index: 22;
     position: relative;
 }
@@ -45,8 +52,8 @@ body{
 }
 .foothc{
     /*background-color: rgba(19,22,39,.5);*/
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     background: white;
 }
 .foothc ul {
@@ -67,7 +74,7 @@ body{
 }
 
 /**Vinculos**/
-li.nav-item a:hover, a:hover{
+li.nav-item a:hover, a:hover, a span:hover{
     color: #2bc0a4 !important;
     text-decoration: none;
 }
@@ -76,16 +83,18 @@ li.nav-item a, .foothc .socialiconhc a{
     font-size: 1.4rem;
     color: white!important;
 }
+.foothc .socialiconhc a{
+    color: #bbbbbb!important;
+}
 .icon_search, .foothc{
     font-weight: bolder;
     font-size: 2rem;
 }
-.foothc a{
+.foothc a, a span{
     color: #343a40;
 }
-.foothc .socialiconhc a{
+.foothc .socialiconhc a, .followus .socialiconhc a{
     display: block;
-    background-color: #bbbbbb;
     width: 4rem;
     height: 4rem;
     line-height: 4rem;
@@ -93,11 +102,189 @@ li.nav-item a, .foothc .socialiconhc a{
     text-align: center;
     font-size: 2rem;
 }
-.foothc .socialiconhc a:hover{
+.followus .socialiconhc a{
+    background-color: #51545f;
+    color: white !important;
+}
+.foothc .socialiconhc a:hover, .followus .socialiconhc a:hover{
     background-color: #2bc0a4;
+    color: white !important;
 }
 #prueba{
     height: 50px;
     width: 50px;
     background-color: yellow;
+}
+h4{
+    font-size: 1.90rem;
+}
+p, .contenthc{
+    font-size: 1.5rem;
+    color: #51545f;
+}
+
+.containerhc {
+    max-width: 95rem;
+    line-height: 2;
+}
+.creativebhc{
+    max-width: 120rem;
+}
+
+div.copy_right_area{
+    border-top: 1px solid #bbbbbb;
+    padding-top: 1rem;
+
+}
+
+#box_itemhc:before{
+    content: "";
+    background: #e5e5e5;
+    height: 180px;
+    width: 1.6px;
+    position: absolute;
+    right: 0px;
+    top: 40px;
+}
+
+ol.faqhc{
+   margin-top: 1.5rem;
+}
+.faqhc li{
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+.faqhc a{
+    font-weight: bold;
+}
+
+.form-control{
+    font-size: 2rem;
+}
+.dashdhc, .articulosA .item, .casa .vista{
+    border-bottom: 2px solid rgba(0,0,0,.2);
+    box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+}
+/*.articulosA .item .row{
+    border-right: 2px solid rgba(0,0,0,.2);
+    box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);
+}*/
+.dashanc{
+    width: 80%;
+}
+.sep{
+    height: 4vh;
+}
+.articulos{
+    width: 120rem;
+}
+.img1{
+    background: url('../img/articulos/1445334837_cuba4.jpg');
+}
+.img2{
+     background: url('../img/articulos/cayo_largo_-_playa_sirena.jpg');
+}
+.img3{
+    background: url('../img/articulos/catedral_de_santiago_de_cuba.jpg');
+}
+.img4{
+    background: url('../img/articulos/1434126870_924998_1434133391_noticia_normal.jpg');
+}
+.img5{
+    background: url('../img/articulos/parque-el-morro-santiago-cu.jpg');
+}
+
+.img2, .img3, .img4, .img5{
+    height: 30vh;
+}
+
+.img1{
+    height: 64vh;
+}
+
+.articulohc{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.dashanc a, .dashanc a:hover{
+    color: white!important;
+}
+.imgdescriphc{
+    width: 93%;
+    background-color: rgba(0,0,0,.4);
+}
+
+.articulosheadhc h1{
+
+}
+.articulosheadhc{
+    border-bottom: 2px dashed #e8e8e8;
+    border-bottom-width: 2px;
+    border-bottom-style: dashed;
+    border-bottom-color: rgb(232,232,232);
+}
+
+.articulosA .item{
+    /*max-height: 50%;
+    padding: 1rem;*/
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.articulosA .item img{
+    /*height: 100%;
+    max-height: 50%;*/
+}
+
+.articulosA .item{
+    background-color: #f7f7f7;
+
+}
+.articulosA .item div:first-child{
+    padding: 0;
+}
+
+.leermas{
+    //padding-top: 10vh;
+}
+
+.artA{
+    height: 55vh;
+}
+.casa, .namecasa{
+    max-width: 100rem;
+}
+.carrete{
+    height: 13vh;
+}
+.item_carrete{
+    width: 266.6px;
+}
+.casa img{
+    vertical-align: center;
+}
+.imagencarrete1{
+    background: url('../img/casas/vista-paseo-room2.2.jpg');
+}
+.imagencarrete2{
+    background: url('../img/casas/ventanales-vedado-coedor.jpg');
+}
+.imagencarrete3{
+    background: url('../img/casas/ventanales-vedado-comedor1.jpg');
+}
+.imagencarrete4{
+    background: url('../img/casas/95 Habitación 3 Rodne y Laura.jpg');
+}
+.imagencarrete1, .imagencarrete2, .imagencarrete3, .imagencarrete4{
+
+    background-position: center;
+    background-size: cover;
+}
+
+.casa{
+    background-color: white;
+    /*border-radius: 4px;
+    box-shadow: 0px 25px 49px 0px rgba(58, 74, 88, 0.1);*/
+
 }
