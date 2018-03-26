@@ -57,5 +57,10 @@
   "defaults": {
     "styleExt": "css",
     "component": {}
-  }
+  },
+  "assets": [
+    "assets",
+    "favicon.ico",
+    "Web.config"
+  ]
 }

@@ -22,6 +22,16 @@ import { HospedajeDetailComponent } from './hospedaje-list/hospedaje-detail/hosp
 import { SearchComponent } from './search/search.component';
 import { BannerComponent } from './banner/banner.component';
 import { ToursListComponent } from './content/tours-list/tours-list.component';
+import { DashboardFirstitemComponent } from './content/dashboard-default/dashboard-firstitem/dashboard-firstitem.component';
+import { DashboardSeconditemComponent } from './content/dashboard-default/dashboard-seconditem/dashboard-seconditem.component';
+import { RowHospedajeListComponent } from './hospedaje-list/row-hospedaje-list/row-hospedaje-list.component';
+import { ArticulosiiComponent } from './content/tours-list/articulosii/articulosii.component';
+import { ArticulosatComponent } from './content/tours-list/articulosat/articulosat.component';
+import { ArticuloscllComponent } from './content/tours-list/articuloscll/articuloscll.component';
+import { ArticulosccComponent } from './content/tours-list/articuloscc/articuloscc.component';
+import { ArticulosiuComponent } from './content/tours-list/articulosiu/articulosiu.component';
+import { ArticulosiiDetailsComponent } from './content/tours-list/articulosii/articulosii-details/articulosii-details.component';
+import { ArticulosiiListComponent } from './content/tours-list/articulosii/articulosii-list/articulosii-list.component';
 
 
 
@@ -42,7 +52,17 @@ import { ToursListComponent } from './content/tours-list/tours-list.component';
     HospedajeDetailComponent,
     SearchComponent,
     BannerComponent,
-    ToursListComponent
+    ToursListComponent,
+    DashboardFirstitemComponent,
+    DashboardSeconditemComponent,
+    RowHospedajeListComponent,
+    ArticulosiiComponent,
+    ArticulosatComponent,
+    ArticuloscllComponent,
+    ArticulosccComponent,
+    ArticulosiuComponent,
+    ArticulosiiDetailsComponent,
+    ArticulosiiListComponent
   ],
   imports: [
       routes,
